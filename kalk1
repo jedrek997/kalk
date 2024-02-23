@@ -1,0 +1,72 @@
+print("Na ilu liczbach chcesz wykonać działanie?")
+licz = input() 
+
+if licz == "2":
+    print("Podaj liczbę 1")
+    a2 = input()
+    print("Podaj liczbę 2")
+    b2 = input()
+    print("Jakie działanie chcesz wykonać? Wpisz: +,-,/,*")
+    c = input()
+    
+    x = int(a2)
+    y = int(b2)
+    
+    if c == "+":
+        print(x + y)
+    elif c == "-":
+        print(x - y)
+    elif c == "*":
+        print(x * y)
+    elif c == "/":
+        print(x / y)
+if licz == "3":
+    print("Podaj liczbę 1")
+    a2 = input()
+    print("Podaj liczbę 2")
+    b2 = input()
+    print("Podaj liczbę 3")
+    c2 = input()
+    print("Jakie działanie chcesz wykonać jako pierwsze? Wpisz: +,-,/,*")
+    c = input()
+    print("Jakie działanie chcesz wykonać jako drugie? Wpisz: +,-,/,*")
+    d = input()
+    
+    x = int(a2)
+    y = int(b2)
+    z = int(c2)
+    
+    if c == "+" and d == "+":
+        print(x + y + z)
+    elif c == "+" and d == "-":
+        print(x + y - z)
+    elif c == "+" and d == "*":
+        print(x + y * z)  
+    elif c == "+" and d == "/":
+        print(x + y / z)
+    elif c == "-" and d == "+":
+        print(x - y + z)
+    elif c == "-" and d == "*":
+        print(x - y * z)
+    elif c == "-" and d == "/":
+        print(x - y / z)
+    elif c == "-" and d == "-":
+        print(x - y - z)
+    elif c == "*" and d == "*":
+        print(x * y * z)
+    elif c == "*" and d == "+":
+        print(x * y + z)
+    elif c == "*" and d == "-":
+        print(x * y - z)
+    elif c == "*" and d == "/":
+        print(x * y / z)
+    elif c == "/" and d == "+":
+        print(x / y + z)
+    elif c == "/" and d == "-":
+        print(x / y - z)
+    elif c == "/" and d == "*":
+        print(x / y * z)
+    elif c == "/" and d == "/":
+        print(x / y / z)
+
+        
