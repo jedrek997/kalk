@@ -1,0 +1,18 @@
+print("Czy chcesz założyć konto?")
+decyzja = input()
+if decyzja == "Tak":
+    print("Podaj login:")
+    login = input()
+    print("Podaj hasło:")
+    haslo = input()
+    print("Gratulacje, zarejestrowałeś się! Teraz się zaloguj!")
+    print("Podaj login")
+    login1 = input()
+    print("Podaj hasło")
+    haslo1 = input()
+    if login1 == login and haslo1 == haslo:
+        print("Zostałeś zalogowany!")
+    else:
+        print("Podałeś zły login/hasło")
+else:
+    print("To na chuj wchodzisz jak nie chcesz konta zakladac pajacu xddd")
