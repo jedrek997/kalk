@@ -1,0 +1,21 @@
+lista = []
+
+print("Podaj produkt")
+lista.append(input())
+
+
+print("Czy chcesz dodać kolejny produkt?")
+decyzja = input()
+while decyzja == "Tak":
+    print("Podaj produkt")
+    lista.append(input())
+    print("Czy chcesz podać kolejny produkt?")
+    decyzja = input()
+
+else:
+    print("Twoja lista zakupów to:")
+    print(lista)
+
+
+
+
