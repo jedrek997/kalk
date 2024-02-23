@@ -68,5 +68,6 @@ if licz == "3":
         print(x / y * z)
     elif c == "/" and d == "/":
         print(x / y / z)
-
+else:
+   print("xd")
         
